@@ -11,7 +11,7 @@
 .add_side {
   width: 25%;
 }
-.add_side .order-card {
+.add_side .order-card-box {
   position: sticky;
   top: 10px;
 }

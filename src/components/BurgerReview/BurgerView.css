@@ -1,0 +1,42 @@
+.burger-box {
+  max-width: 100%;
+}
+
+.burger-box.small {
+  width: 40%;
+  height: 200px;
+}
+
+.burger-box.small .md_salad {
+  margin-left: 0;
+}
+
+.burger-box.small .sec-burger, 
+.burger-box.small .bun {
+  width: 100%;
+}
+
+.burger-box.small .sec-burger {
+  margin-top: -10px;
+}
+
+.burger-box.small .sec-burger.main {
+  z-index: 100;
+  margin-top: 0;
+}
+
+.order-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.order-view-add {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.order-view-add.fries {
+  max-width: 150px;
+}

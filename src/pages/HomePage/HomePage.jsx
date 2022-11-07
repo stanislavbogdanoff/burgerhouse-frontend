@@ -23,8 +23,6 @@ const HomePage = () => {
     
   }, [dispatch])
 
-  console.log(orders)
-
   useEffect(() => {
     document.title = "BurgerHouse - All Orders"
   }, [])

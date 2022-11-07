@@ -1,13 +1,16 @@
-.order-card {
+.order-card-box {
   position: relative;
+  background-color: var(--card-bg-color);
+  border-radius: 20px;
+
+}
+.order-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 25px;
   padding: 30px 40px;
-  background-color: var(--card-bg-color);
-  border-radius: 20px;
 }
 .order-card p {
   text-transform: capitalize;
@@ -69,4 +72,9 @@
 .order-card.deleted {
   opacity: 0;
   transform: translateY(-30px);
+}
+.order-card h4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

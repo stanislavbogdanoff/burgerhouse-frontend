@@ -35,6 +35,19 @@ p {
   min-height: 100vh;
 }
 
+::-webkit-scrollbar-track {
+  background: rgb(246, 246, 246);
+}
+
+::-webkit-scrollbar {
+  width: 12px
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5e00; 
+  border-radius: 10px;
+}
+
 /************************ GLOBALS ************************/
 
 section {
