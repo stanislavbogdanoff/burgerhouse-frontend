@@ -1,0 +1,9 @@
+/******* HERO ********/
+
+.hero_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+}

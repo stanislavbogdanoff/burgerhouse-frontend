@@ -1,0 +1,6 @@
+.add_form-btns-box button {
+  padding: 10px 15px;
+}
+.add_form-btns-box button:nth-child(2) {
+  margin-left: 10px;
+}

@@ -1,0 +1,72 @@
+.order-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px 40px;
+  background-color: var(--card-bg-color);
+  border-radius: 20px;
+}
+.order-card p {
+  text-transform: capitalize;
+}
+
+.order-card-title {
+  width: 100%;
+  text-align: center;
+}
+
+.order-card .primary-btn {
+  width: 100%;
+}
+
+.order-card span {
+  color: #000;
+  font-weight: 500;
+}
+
+.order-card font {
+  font-size: 24px;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.order-card h3 {
+  color: var(--accent-color);
+}
+
+.order-card p {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 22px;
+  color: var(--txt-light-color);
+  transform: rotate(-45deg);
+}
+.delete-btn:hover {
+  color: var(--txt-dark-color);
+}
+.order-card {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.2s;
+}
+.order-card.deleted {
+  opacity: 0;
+  transform: translateY(-30px);
+}
